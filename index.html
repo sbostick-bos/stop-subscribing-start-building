@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#071529"><meta name="description" content="An interactive educator-led workshop about creating purpose-built AI tools for teaching and learning."><title>Stop Subscribing. Start Building. | Educator Edition</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<div id="app" class="app">
+<header class="topbar"><a class="brand" href="#1" aria-label="First slide"><span class="brand-mark">S<span class="mark-dot">.</span>B</span><span class="brand-sub">EDUCATOR EDITION</span></a><div class="top-actions"><button id="chaptersBtn" class="ghost" aria-expanded="false" aria-controls="chapters">☷ <span>Slides</span></button><button id="fullBtn" class="ghost" title="Toggle fullscreen">⛶ <span>Full screen</span></button></div></header>
+<aside id="chapters" class="chapters" hidden><div class="chapters-head"><strong>Presentation slides</strong><button id="closeChapters" class="icon-button" aria-label="Close slide menu">×</button></div><div id="chapterList" class="chapter-list"></div></aside>
+<main id="stage" class="stage" tabindex="-1" aria-live="polite"></main>
+<footer class="footer"><div class="foot-left"><span id="slideCounter" class="counter">01 / 16</span><span class="foot-label">Susan Bostick · AI + Education</span></div><div class="nav"><button id="backBtn" class="nav-btn" aria-label="Previous slide">← <span>Back</span></button><div class="progress-track"><span id="progress" class="progress"></span></div><button id="nextBtn" class="nav-btn primary"><span>Next</span> →</button></div><span class="keyboard-tip">← → to navigate</span></footer>
+</div><script src="app.js" defer></script></body></html>
